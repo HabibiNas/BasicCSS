@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0 20px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b9dfe9; /* light blue background */
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  margin: 18px 0 20px 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 14px 0 6px 0;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+#paragraph2 {
+  width: 75%;
+  margin: 14px auto;
+  padding: 10px 12px;
+  border: 2px solid #000;
+  background-color: #ffffff;
+  line-height: 1.7;
+}
+
+.blue {
+  color: #0b2fb8; /* deep blue */
+}
+
+a {
+  color: #0000ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[href*="w3schools"] {
+  color: #800000;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+table {
+  border-collapse: collapse; /* overlapping borders */
+  margin-top: 10px;
+  font-size: 12px;
+  width: 420px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px 8px;
+}
+
+th {
+  background-color: #d3d3d3;
+  text-align: left;
+}
+
+td {
+  background-color: #f2f2f2;
+}
