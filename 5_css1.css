@@ -1,11 +1,13 @@
+/* Page background */
 body {
   margin: 0;
   padding: 0 20px 30px 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #b9dfe9; /* light blue background */
+  background-color: #b9dfe9;
   color: #000;
 }
 
+/* Main header */
 h1 {
   text-align: center;
   font-size: 42px;
@@ -13,10 +15,10 @@ h1 {
   font-weight: bold;
 }
 
+/* Section headers */
 h2 {
   font-size: 24px;
   margin: 10px 0;
-  font-weight: bold;
 }
 
 h3 {
@@ -24,12 +26,14 @@ h3 {
   margin: 14px 0 6px 0;
 }
 
+/* Paragraphs */
 p {
   font-size: 13px;
   line-height: 1.5;
   margin-bottom: 12px;
 }
 
+/* Second paragraph box */
 #paragraph2 {
   width: 75%;
   margin: 14px auto;
@@ -39,36 +43,34 @@ p {
   line-height: 1.7;
 }
 
+/* Blue paragraphs */
 .blue {
-  color: #0b2fb8; /* deep blue */
+  color: #0b2fb8;
 }
 
+/* Links */
 a {
   color: #0000ff;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 a[href*="w3schools"] {
   color: #800000;
 }
 
+/* Ordered list */
 ol {
   list-style-type: decimal-leading-zero;
   margin-left: 30px;
-  font-size: 13px;
 }
 
 li {
   margin: 4px 0;
 }
 
+/* Table */
 table {
-  border-collapse: collapse; /* overlapping borders */
+  border-collapse: collapse;
   margin-top: 10px;
-  font-size: 12px;
   width: 420px;
 }
 
@@ -79,9 +81,9 @@ th, td {
 
 th {
   background-color: #d3d3d3;
-  text-align: left;
 }
 
 td {
   background-color: #f2f2f2;
 }
+
